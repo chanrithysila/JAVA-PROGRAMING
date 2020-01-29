@@ -9,14 +9,9 @@ public class EquilateralTriangle extends GetRidDuplicate {
 		super(size);
 		
 	}
-	@Override
-	public int getSideLength() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+	
 	@Override
 	public int getNumSide() {
-		// TODO Auto-generated method stub
 		return NUM_SIZE;
 	}
 

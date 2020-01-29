@@ -1,6 +1,6 @@
 package theRegularPolygon;
 
-public class GetRidDuplicate implements RegularPolygon{
+public abstract class GetRidDuplicate implements RegularPolygon{
 
 	int size;
 	
@@ -8,15 +8,9 @@ public class GetRidDuplicate implements RegularPolygon{
 		
 		this.size = size;
 	}
-
-	@Override
-	public int getNumSide() {
-		return 0;
-	}
-
 	@Override
 	public int getSideLength() {
-		return 0;
+		return size;
 	}
 
 }
